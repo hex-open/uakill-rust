@@ -1,0 +1,15 @@
+[package]
+name = "uakiller"
+version = "0.1.0"
+authors = ["Skogen <muumlover@live.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+windows = { version = "0.10.0" }
+winapi = { version = "0.3", features = ["winuser"] }
+
+[build-dependencies]
+windows = { version = "0.10.0" }
+embed-resource = "1.6"
