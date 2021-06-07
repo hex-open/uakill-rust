@@ -1,6 +1,6 @@
 [package]
 name = "uakiller"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Skogen <muumlover@live.com>"]
 edition = "2018"
 
@@ -13,3 +13,4 @@ winapi = { version = "0.3", features = ["winuser"] }
 [build-dependencies]
 windows = { version = "0.10.0" }
 embed-resource = "1.6"
+winres = "0.1.11"
